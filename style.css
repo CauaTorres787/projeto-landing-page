@@ -1,0 +1,141 @@
+*{
+   margin: 0px;
+   font-family: "inter";
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#titulo-cabecalho{
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+#texto-cabecalho{
+    margin-left: 150px;
+    margin-top: 25px;
+    padding-bottom: 150px;
+}
+
+#cabecalho{
+    background-image: url(imagens/fundocabecalho.svg);
+    color: aliceblue;
+}
+
+#menuinformacional{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone{
+    margin: 50px 0px 50px 100px ;
+    padding-right: 25px;
+}
+
+.textoinf{
+    display: flex;
+    align-items: center;
+}
+
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video{
+    margin: 50px 0px 50px 100px;
+}
+
+#titulovideo{
+    color: #247BA0;
+    margin-top: 50px;
+    padding-right: 25px;
+    font-size: 32px;
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 50px;
+}
+
+#titulo-carrossel{
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+}
+
+#div-cards{
+    margin-top: 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.card{
+    margin-left: 50px;
+}
+
+#samantha{
+    display: none;
+}
+
+#seta-esquerda{
+    display: none;
+}
+
+.seta{
+    margin-top: 55%;
+    cursor: pointer;
+}
+
+.seta:hover{
+    transform: translatey(-7px);
+    transition-duration: 0,5s;
+}
+
+#formulario{
+    text-align: center;
+}
+
+#titulo-formulario{
+    color:black;
+    margin-top: 20px;
+    font-size: 32px;
+}
+#botao-acessar{
+    background-color: #247BA0;
+    color: aliceblue;
+    text-align: center;
+}
+
+input{
+    margin-top: 35px;
+    background-color: #EAECE5;
+    Width: 413px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #247BA0;
+    color: aliceblue;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    Width: 335px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    transform:scale(1.1);
+    transition-duration: 0,9s;
+}
